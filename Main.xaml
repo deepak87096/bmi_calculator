@@ -1,0 +1,126 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="700,1736.66666666667" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="32">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="32">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="552,1672" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="age" />
+      <Variable x:TypeArguments="x:String" Name="gender" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" DisplayName="Use Application: Command Prompt" sap:VirtualizedContainerService.HintSize="510,1580" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" ScopeGuid="1909f721-880f-4d93-8d81-6bcdef836c23" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="476,1285.33333333333" sap2010:WorkflowViewState.IdRef="Sequence_6">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="434,230" sap2010:WorkflowViewState.IdRef="NTypeInto_3" Text="E:[k(enter)]" Version="V1" />
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="434,230" sap2010:WorkflowViewState.IdRef="NTypeInto_4" Text="cd Study\Winning Camp\Complex Problem[k(enter)]" Version="V1" />
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="434,230" sap2010:WorkflowViewState.IdRef="NTypeInto_5" Text="python bmiCalculator.py[k(enter)]" Version="V1" />
+            <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" DisplayName="Use Application: BMI Calculator" sap:VirtualizedContainerService.HintSize="434,380.666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_9" ScopeGuid="6ebe6600-1ccc-4313-a194-940d7dcbe7a4" Version="V2">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="200,86" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="-12, -12, 1944, 1032" FilePath="C:\Users\Deepak Kumar\AppData\Local\Programs\Python\Python310\python.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAPJSURBVFhHzZUJSFRRFIadxWZ0ZgxNbZusMa2mRg210qIoisLAwqTFaqLNtDJsoQUSNNrIFBlaDApT2iOXUrMswgoSWzSssKAyotL2NKJJi9t/R5+8HmccR4L64WPe/d8575z73r13XBhjfxWoL0gEl0EyFSOGNLsDpAb7NFrtu6iYOfVjpptvYbyWihVDms4AuQI9KAiLiHyzaX8pC48/zgZELCiFt5rKEUOazgAdBq+mRc94H5daYCvO6R0UdR7+CipHDGl2FWhdP71fY3TMrIasUxUdxTme/hGFuL+IyhNDml0Bmq5Sqz/lFlxqvV79iEWuPPFHAyoP3zLEBFO5YkjTEdAQuVz++VDuceuUdWfY+KSTbNjMtMdC8dAlOa8QUw9kVL4Y0nQEVJS8cUvz5uxyW8GguZl1fmMX1QgN9AoYx1//DipXCml2BhSu1ek+FV+vaXvdy499V+l8KzHrX3xsnJFWhZiPwOHr55CmPSAj2JqQlNwUv6fY1oCnYXSx95AJd4TZB05dX+Uik79A3GTqGVJI0x7QGfAtOzevhRcLmpf50EUmaxppzrYKDQyP2X4bMU+Bw+/PIU0KyEOhUHyNjVv4Mq/oqq2Yxse/xKO/qWP2HDevARcRm0I9g4I0KaAlppDQxsKKe8xy9iYLMWc/g9dsmp3xWSgOj8+8CeipZ1CQJgV0bWd6xvfYlHxbsZ5+IUVuXvqOlc/xNIziq7+UyrcHaUrhM8K+t1bW1NoKhS3LfQfv/dDora+F4mFLc+DJ+P6Pop5hD9KUAsUFh4a/PVV+11bMMGlVmUyu+BAef0w0+9F89iVUfmeQphRoh3lZwpfUI8LiMxRrfAOqheIhCw/y9dAA/Kn8ziBNKVDOrr2Z1rWWMl6wBVvv+cBxizuOXnfvQfyvN43KdQRpioFMID09y2JNyrrIjDO3VWL8a6T50E9efETs7mqMfwALle8I0hQDpYDWNRs2fd14oJz5GCdfkMmV+P5tszdMTLyp6OHOD58FVL4jSFMMlGAcYWo8fS6/5WhJFXPz1JfJXdUvhQaC5mTcR8xDoKTyHUGaYiA/vgXrHtexqgdPmFzhelep9njS3kCrUqW9gZhVVG5XIE0p0N5BgwMbqh/U/sR1s0rnUxs831LfQ9urAuP9oEvnPgVpSoEU4Iq7RtOIX4YzgB84X0C3Fp4Y0pQC9QElgA8E+JkfQMU7A2lSQEqQB/igFUyg4pyFNO0BhbY3cJq63x1I0x4Q/xT8IpG63x1I0x7/QwPe/7QBDnTkXzegA9Ooe87DXH4DOxFM8l0849IAAAAASUVORK5CYII=" InformativeScreenshot="9597bb0d62d82240cd7485b957893599.png" Selector="&lt;wnd app='python.exe' cls='TkTopLevel' title='BMI Calculator' /&gt;" />
+              </uix:NApplicationCard.TargetApp>
+            </uix:NApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="38, 38, 1368, 776" FilePath="C:\Windows\System32\cmd.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIHSURBVFhH7ZdLaxpRGIaHKBEJQUFxIQjeEEFFEEUUEURURNS/0X3IIlAC5qKdaLFSqylNfk+beF8lK7PLX7CrvD2fN2Z0EiQ4GqgvPDgevzPfM8NBzuF22Xr4Su1z4eILNslFsVxgrfcZe1yJL788Dp8xeHhiDNfKp5Oa5CdJsOaGsUS19mPU7Q8wpzdAR5I+Ot0+2nN6aHUm0DjN6/ZZDauj32n8vt3FXauDP/dt/L5rzZkK2BgHXPP6dpTP50Hkcjlks1lkMhmk02mkUikkEgnE43HEYjFEo1FEIhGEw2EEg0H4/X74fD54vV54PB64XC44nU44HA5YLBYYjUbodDqo1WpqOGcq4GAcMoGb7Qo0mr+2K1Bv/Py7KDDLawIU2QQoszdAmQlQZBGo1Zvj5lICb70BykzA7XbDbrfDarXCbDbDZDJBr9dDq9VCo9FApVKtRyAUCo2f1GazjesoSqVSdPNVWFmAQk3pySjCmxBSY6sgEvj2vSESEC5Cen3CiYtQhNdvRThPJMD+CUUCgUBgadGsG0mBZDIJg8GwVCwHSwK0uhdXqpyIBEr8VygUiqUiOREJTL9slJ3ATmAn8LEEaI9+Wrgc0eB7OC9eochXwFeqKF1VcVkq40yiTsjR8UmdNZ/silnogEB7dBogq01AvSbnApa96QXZHG4I6jU5Gf3n4bh/yEbmXwyqKk4AAAAASUVORK5CYII=" InformativeScreenshot="33f7645e7a90602949ff15d763d46e43.png" Selector="&lt;wnd app='cmd.exe' cls='ConsoleWindowClass' title='Command Prompt' /&gt;" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
